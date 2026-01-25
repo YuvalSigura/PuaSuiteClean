@@ -1,0 +1,4 @@
+; Auto-generated AntiDebug patch
+PATTERN=DebugBreak1ExtraWideHandler
+REPLACE=90 90 90 90
+COMMENT=AutoPatch: disable AntiDebug call

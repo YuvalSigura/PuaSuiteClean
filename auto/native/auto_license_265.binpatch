@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN= USING INTEGER PRIMARY KEY (%s
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=IndexedDB Read Error: KEY_EXISTS_IN_OBJECT_STORE
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE IF NOT EXISTS browser_context_sets_version(browser_context_id TEXT PRIMARY KEY NOT NULL,public_sets_version TEXT NOT NULL)WITHOUT ROWID
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,222 @@
+<UserControl x:Class="PuaSuiteClean.Pages.DashboardPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Background="#1A1A1A">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Dashboard — Patch &amp; Scan Center"
+                   FontSize="28"
+                   FontWeight="Bold"
+                   Foreground="#A00028"
+                   Margin="0 0 0 20"/>
+
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- LEFT PANEL -->
+            <Grid Grid.Column="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- FILE SELECTOR -->
+                <Border Background="#222" Padding="15" CornerRadius="8" Grid.Row="0">
+                    <StackPanel>
+                        <TextBlock Text="Select Target File"
+                                   FontSize="18"
+                                   Foreground="#EEE"/>
+                        <DockPanel Margin="0 10 0 0">
+                            <TextBox x:Name="TxtTargetFile"
+                                     Width="300"
+                                     Height="30"
+                                     Background="#111"
+                                     Foreground="White"
+                                     BorderThickness="1"
+                                     BorderBrush="#A00028"
+                                     IsReadOnly="True"
+                                     DockPanel.Dock="Left"/>
+                            <Button Content="Browse"
+                                    Width="80"
+                                    Height="30"
+                                    Margin="10 0 0 0"
+                                    Background="#A00028"
+                                    Foreground="White"
+                                    Click="BtnBrowse_Click"/>
+                        </DockPanel>
+
+                        <TextBlock x:Name="LblFileType"
+                                   FontSize="14"
+                                   Foreground="#CCC"
+                                   Margin="0 5 0 0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- RESULTS AREA -->
+                <Border Background="#111"
+                        Padding="10"
+                        CornerRadius="6"
+                        Margin="0 15 0 0"
+                        Grid.Row="1">
+                    <StackPanel>
+                        <TextBlock Text="Batch Results"
+                                   FontSize="18"
+                                   Foreground="#EEE"/>
+                        <Label x:Name="LblAppliedCount"
+                               Content="0 patches applied"
+                               Foreground="LightGreen"
+                               Margin="0 3 0 10"/>
+
+                        <TextBox x:Name="TxtResults"
+                                 Background="#000"
+                                 Foreground="#EEE"
+                                 Height="180"
+                                 BorderBrush="#A00028"
+                                 BorderThickness="1"
+                                 TextWrapping="Wrap"
+                                 VerticalScrollBarVisibility="Auto"
+                                 AcceptsReturn="True"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- PATCH LIST -->
+                <Border Background="#222"
+                        Padding="15"
+                        CornerRadius="6"
+                        Margin="0 15 0 0"
+                        Grid.Row="2">
+                    <StackPanel>
+                        <TextBlock Text="Available Patches"
+                                   FontSize="18"
+                                   Foreground="#EEE"/>
+
+                        <ListBox x:Name="PatchList"
+                                 Background="#111"
+                                 Foreground="#EEE"
+                                 BorderBrush="#A00028"
+                                 BorderThickness="1"
+                                 Height="150"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <!-- RIGHT PANEL -->
+            <Border Background="#222"
+                    Padding="15"
+                    CornerRadius="6"
+                    Margin="15 0 0 0"
+                    Grid.Column="1">
+
+                <StackPanel>
+
+                    <TextBlock Text="Actions"
+                               FontSize="20"
+                               Foreground="#EEE"
+                               Margin="0 0 0 10"/>
+
+                    <Button x:Name="BtnScanPE"
+                            Content="Scan PE File"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnScanPE_Click"/>
+
+                    <Button x:Name="BtnAutoPatch"
+                            Content="Auto Patch"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnAutoPatch_Click"/>
+
+                    <!-- ⭐ NEW BUTTON: AUTOPATCH V2 ⭐ -->
+                    <Button x:Name="BtnAutoPatchV2"
+                            Content="AutoPatch V2"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnAutoPatchV2_Click"/>
+
+                    <Button x:Name="BtnApplyPatchV2"
+                        Content="Apply Patch V2"
+                        Height="34"
+                        Background="#A00028"
+                        Foreground="White"
+                        Margin="0 5"
+                        Click="BtnApplyPatchV2_Click"/>
+
+
+                    <Separator Margin="0 10 0 10"/>
+
+                    <Button Content="Build Loader"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnBuildLoader_Click"/>
+
+                    <Button Content="Check Loader Updates"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnCheckUpdate_Click"/>
+
+                    <Button Content="Open Loader Folder"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnOpenLoaderFolder_Click"/>
+
+                    <Separator Margin="0 10 0 10"/>
+
+                    <Button Content="Run Patch Batch"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnRunBatch_Click"/>
+
+                    <Button Content="Validate Patch"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnValidatePatch_Click"/>
+
+                    <Button Content="Create Backup"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnBackup_Click"/>
+
+                    <Button Content="Analyze Crash"
+                            Height="34"
+                            Background="#A00028"
+                            Foreground="White"
+                            Margin="0 5"
+                            Click="BtnAnalyzeCrash_Click"/>
+
+                    <TextBlock x:Name="LblLoaderStatus"
+                               Foreground="#CCC"
+                               Margin="0 15 0 0"/>
+
+                </StackPanel>
+
+            </Border>
+        </Grid>
+    </Grid>
+</UserControl>

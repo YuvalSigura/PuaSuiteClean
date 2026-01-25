@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE dedup_keys(source_id INTEGER NOT NULL,report_type INTEGER NOT NULL,dedup_key INTEGER NOT NULL,PRIMARY KEY(source_id,report_type,dedup_key))WITHOUT ROWID
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=/*! For license information please see worker_init.js.LICENSE.txt */
+REPLACE=00
+COMMENT=AutoPatch: remove license string

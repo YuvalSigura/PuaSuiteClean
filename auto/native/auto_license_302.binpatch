@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PRIVATE_KEY_DOES_NOT_MATCH_CERTIFICATE
+REPLACE=00
+COMMENT=AutoPatch: remove license string

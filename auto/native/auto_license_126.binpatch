@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=WebCryptoCipherStatus __cdecl node::crypto::(anonymous namespace)::RSA_Cipher(Environment *, const KeyObjectData &, const RSACipherConfig &, const ByteSource &, ByteSource *) [init = &EVP_PKEY_decrypt_init, cipher = &EVP_PKEY_decrypt]
+REPLACE=00
+COMMENT=AutoPatch: remove license string

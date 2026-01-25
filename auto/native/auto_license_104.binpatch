@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=KEYBOARD_INTERRUPT: Script execution was interrupted by `SIGINT`
+REPLACE=00
+COMMENT=AutoPatch: remove license string

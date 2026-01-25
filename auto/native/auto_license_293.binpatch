@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=DIGEST_AND_KEY_TYPE_NOT_SUPPORTED
+REPLACE=00
+COMMENT=AutoPatch: remove license string

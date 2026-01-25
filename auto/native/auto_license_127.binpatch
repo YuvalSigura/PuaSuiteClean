@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PEM_read_bio_PUBKEY failed
+REPLACE=00
+COMMENT=AutoPatch: remove license string

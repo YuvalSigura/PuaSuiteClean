@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PRAGMA writable_schema = 1;CREATE TABLE recovery.map(pgno INTEGER PRIMARY KEY, parent INT);CREATE TABLE recovery.schema(type, name, tbl_name, rootpage, sql);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

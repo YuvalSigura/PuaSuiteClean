@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=static void __cdecl node::crypto::PublicKeyCipher::Cipher(const FunctionCallbackInfo<Value> &) [operation = node::crypto::PublicKeyCipher::kPrivate, EVP_PKEY_cipher_init = &EVP_PKEY_decrypt_init, EVP_PKEY_cipher = &EVP_PKEY_decrypt]
+REPLACE=00
+COMMENT=AutoPatch: remove license string

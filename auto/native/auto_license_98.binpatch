@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=  stream[KEYPRESS_DECODER] = new StringDecoder('utf8');
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=INVALID_PUBKEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

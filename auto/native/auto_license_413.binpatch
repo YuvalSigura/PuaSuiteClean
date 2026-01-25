@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=ROLE_SYSTEM_HOTKEYFIELD
+REPLACE=00
+COMMENT=AutoPatch: remove license string

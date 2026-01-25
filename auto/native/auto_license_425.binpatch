@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=WEBRTC_VIDEO_CODEC_OK_REQUEST_KEYFRAME
+REPLACE=00
+COMMENT=AutoPatch: remove license string

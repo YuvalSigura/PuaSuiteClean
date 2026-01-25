@@ -1,0 +1,8 @@
+﻿patch com.api.UserService.login()
+{
+    replace {
+        aload_0
+        invokestatic Hooks/logLogin
+        return
+    }
+}

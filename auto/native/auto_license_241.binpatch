@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE records (row_id INTEGER PRIMARY KEY, object_store_id INTEGER NOT NULL, key BLOB NOT NULL, value BLOB NOT NULL, UNIQUE (object_store_id, key))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

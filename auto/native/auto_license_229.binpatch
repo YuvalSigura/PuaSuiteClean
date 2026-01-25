@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE view_and_click_events(provider_origin TEXT NOT NULL,eligible_origin TEXT NOT NULL,uncompacted_view_events BLOB NOT NULL,compacted_view_events BLOB NOT NULL,uncompacted_click_events BLOB NOT NULL,compacted_click_events BLOB NOT NULL,PRIMARY KEY(provider_origin, eligible_origin))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

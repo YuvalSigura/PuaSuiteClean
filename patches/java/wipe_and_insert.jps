@@ -1,0 +1,9 @@
+﻿patch com.auth.Token.validate()
+{
+    remove_all
+
+    insert_after {
+        invokestatic Hooks/alwaysValid
+        return
+    }
+}

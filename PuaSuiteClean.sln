@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36908.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuaSuiteClean", "PuaSuiteClean.csproj", "{B897A131-8D80-7C58-B187-D5B74663F0C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B897A131-8D80-7C58-B187-D5B74663F0C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B897A131-8D80-7C58-B187-D5B74663F0C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B897A131-8D80-7C58-B187-D5B74663F0C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B897A131-8D80-7C58-B187-D5B74663F0C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C318B0C6-1DF9-4DD9-85E1-C751D6060F2E}
+	EndGlobalSection
+EndGlobal

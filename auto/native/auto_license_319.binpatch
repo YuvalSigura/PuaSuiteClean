@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=ERROR_CONVERTING_PRIVATE_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

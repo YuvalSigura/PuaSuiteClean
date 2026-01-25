@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=Event.Latency.OS2.KEY_PRESSED
+REPLACE=00
+COMMENT=AutoPatch: remove license string

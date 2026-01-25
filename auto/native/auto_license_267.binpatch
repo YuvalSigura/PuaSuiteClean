@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=index associated with UNIQUE or PRIMARY KEY constraint cannot be dropped
+REPLACE=00
+COMMENT=AutoPatch: remove license string

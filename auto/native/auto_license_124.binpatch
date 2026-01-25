@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=(EVP_PKEY_set1_RSA(pkey.get(), rsa.get())) == (1)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

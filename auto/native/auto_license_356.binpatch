@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=TOO_MANY_KEYS
+REPLACE=00
+COMMENT=AutoPatch: remove license string

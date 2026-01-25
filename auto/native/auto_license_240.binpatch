@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE indexes (object_store_id INTEGER NOT NULL, id INTEGER NOT NULL, name BLOB NOT NULL, key_path BLOB, is_unique INTEGER NOT NULL, multi_entry INTEGER NOT NULL, PRIMARY KEY (object_store_id, id)) WITHOUT ROWID
+REPLACE=00
+COMMENT=AutoPatch: remove license string

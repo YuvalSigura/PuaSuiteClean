@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=IndexedDB Read Error: GET_PRIMARY_KEY_VIA_INDEX
+REPLACE=00
+COMMENT=AutoPatch: remove license string

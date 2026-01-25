@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=QUIC_CRYPTO_SYMMETRIC_KEY_SETUP_FAILED
+REPLACE=00
+COMMENT=AutoPatch: remove license string

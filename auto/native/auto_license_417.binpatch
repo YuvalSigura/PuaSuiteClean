@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=DOM_KEY_LOCATION_STANDARD
+REPLACE=00
+COMMENT=AutoPatch: remove license string

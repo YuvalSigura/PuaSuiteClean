@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=DIGEST_TOO_BIG_FOR_RSA_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

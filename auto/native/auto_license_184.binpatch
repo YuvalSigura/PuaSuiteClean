@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE popups(opener_site TEXT NOT NULL,popup_site TEXT NOT NULL,access_id INT64,last_popup_time INTEGER,is_current_interaction BOOLEAN,is_authentication_interaction BOOLEAN,PRIMARY KEY (`opener_site`,`popup_site`))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

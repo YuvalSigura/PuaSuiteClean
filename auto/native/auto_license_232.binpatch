@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE IF NOT EXISTS local_traces(uuid TEXT PRIMARY KEY NOT NULL,creation_time DATETIME NOT NULL,scenario_name TEXT NOT NULL,upload_rule_name TEXT NOT NULL,upload_rule_value INT NULL,state INT NOT NULL,upload_time DATETIME NULL,skip_reason INT NOT NULL,trace_content BLOB NULL,system_profile BLOB NULL,file_size INTEGER NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

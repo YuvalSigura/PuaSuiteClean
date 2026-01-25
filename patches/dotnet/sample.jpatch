@@ -1,0 +1,6 @@
+# Java method patch (replace return with const)
+[classpatch]
+class: com/example/Main
+method: getLicenseKey
+find: B2 00 15 B6 00 22
+replace: 12 01 B0

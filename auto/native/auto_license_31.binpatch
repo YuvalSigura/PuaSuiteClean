@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=expressions prohibited in PRIMARY KEY and UNIQUE constraints
+REPLACE=00
+COMMENT=AutoPatch: remove license string

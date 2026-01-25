@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=U_UNDEFINED_KEYWORD
+REPLACE=00
+COMMENT=AutoPatch: remove license string

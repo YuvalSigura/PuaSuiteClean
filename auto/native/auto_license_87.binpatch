@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=//   Original license at https://github.com/denoland/deno/blob/main/LICENSE.md.
+REPLACE=00
+COMMENT=AutoPatch: remove license string

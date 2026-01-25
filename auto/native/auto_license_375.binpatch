@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=COOKIE_PERSISTENT_STORE_KEY_LOAD_STARTED
+REPLACE=00
+COMMENT=AutoPatch: remove license string

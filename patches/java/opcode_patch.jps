@@ -1,0 +1,10 @@
+﻿patch com.math.Calc.add()
+{
+    replace {
+        iload_0
+        iload_1
+        iadd
+        invokestatic Hooks/onAdd
+        ireturn
+    }
+}

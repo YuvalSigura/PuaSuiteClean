@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=Failed to extract EC_KEY from EVP_PKEY.
+REPLACE=00
+COMMENT=AutoPatch: remove license string

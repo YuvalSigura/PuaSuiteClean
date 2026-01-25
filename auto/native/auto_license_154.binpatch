@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=KEYFORMATVERSIONS
+REPLACE=00
+COMMENT=AutoPatch: remove license string

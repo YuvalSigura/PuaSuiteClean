@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=HKEY_CLASSES_ROOT\
+REPLACE=00
+COMMENT=AutoPatch: remove license string

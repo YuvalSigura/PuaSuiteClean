@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE source_destinations(source_id INTEGER NOT NULL,destination_site TEXT NOT NULL,PRIMARY KEY(source_id,destination_site))WITHOUT ROWID
+REPLACE=00
+COMMENT=AutoPatch: remove license string

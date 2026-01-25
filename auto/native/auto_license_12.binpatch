@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE presets(presetid INTEGER PRIMARY KEY,bankid INTEGER NOT NULL,presetindex INTEGER NOT NULL,name VARCHAR(255) NOT NULL,flag INTEGER DEFAULT 0,contentid INTEGER,FOREIGN KEY(bankid) REFERENCES banks(bankid) DEFERRABLE INITIALLY DEFERRED,FOREIGN KEY(contentid) REFERENCES presetcontents(contentid) DEFERRABLE INITIALLY DEFERRED)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

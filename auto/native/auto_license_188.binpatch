@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE config(key TEXT NOT NULL,int_value INTEGER,PRIMARY KEY (`key`))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

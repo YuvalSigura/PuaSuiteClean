@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE bid_history2(owner TEXT NOT NULL,name TEXT NOT NULL,bid_time INTEGER NOT NULL,count INTEGER NOT NULL,PRIMARY KEY(owner, name, bid_time) FOREIGN KEY(owner,name) REFERENCES interest_groups)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

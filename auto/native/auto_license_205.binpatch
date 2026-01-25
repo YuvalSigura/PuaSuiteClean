@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE cached_k_anonymity_hashes(key_hash BLOB NOT NULL,is_k_anon INTEGER NOT NULL,fetch_time INTEGER NOT NULL,PRIMARY KEY(key_hash))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

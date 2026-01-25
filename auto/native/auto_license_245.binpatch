@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE IF NOT EXISTS values_mapping(context_origin TEXT NOT NULL,key BLOB NOT NULL,value BLOB NOT NULL,last_used_time INTEGER NOT NULL,PRIMARY KEY(context_origin,key)) WITHOUT ROWID
+REPLACE=00
+COMMENT=AutoPatch: remove license string

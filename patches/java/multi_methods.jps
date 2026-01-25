@@ -1,0 +1,13 @@
+﻿patch com.game.Player.jump()
+{
+    insert_before {
+        invokestatic Hooks/beforeJump
+    }
+}
+
+patch com.game.Player.shoot()
+{
+    insert_after {
+        invokestatic Hooks/afterShoot
+    }
+}

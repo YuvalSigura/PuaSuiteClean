@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=SSL_PINNED_KEY_NOT_IN_CERT_CHAIN
+REPLACE=00
+COMMENT=AutoPatch: remove license string

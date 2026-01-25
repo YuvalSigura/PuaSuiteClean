@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE reports(report_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,source_id INTEGER NOT NULL,trigger_time INTEGER NOT NULL,report_time INTEGER NOT NULL,initial_report_time INTEGER NOT NULL,failed_send_attempts INTEGER NOT NULL,external_report_id TEXT NOT NULL,debug_key INTEGER,context_origin TEXT NOT NULL,reporting_origin TEXT NOT NULL,report_type INTEGER NOT NULL,metadata BLOB NOT NULL,context_site TEXT NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

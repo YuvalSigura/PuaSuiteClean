@@ -1,0 +1,9 @@
+﻿patch com.test.Main.run()
+{
+    replace {
+        aload_0
+        iload_1
+        invokestatic Logger/log
+        return
+    }
+}

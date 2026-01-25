@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=UNABLE_TO_DECODE_ISSUER_PUBLIC_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

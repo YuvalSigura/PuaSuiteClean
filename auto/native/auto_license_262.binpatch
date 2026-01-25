@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=generated columns cannot be part of the PRIMARY KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

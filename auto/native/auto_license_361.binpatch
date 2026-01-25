@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PUBLIC_KEY_ENCODE_ERROR
+REPLACE=00
+COMMENT=AutoPatch: remove license string

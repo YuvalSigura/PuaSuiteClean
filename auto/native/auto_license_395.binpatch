@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE %s ( key TEXT, proto BLOB, PRIMARY KEY(key))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

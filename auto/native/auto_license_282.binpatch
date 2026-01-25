@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=);CREATE TABLE "%w"."%w_node"(nodeno INTEGER PRIMARY KEY,data);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

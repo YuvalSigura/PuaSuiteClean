@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE "%w"."%w_rowid"(rowid INTEGER PRIMARY KEY,nodeno
+REPLACE=00
+COMMENT=AutoPatch: remove license string

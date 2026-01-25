@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=GOOGLE_API_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

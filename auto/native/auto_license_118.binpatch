@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=WebCryptoKeyExportStatus __cdecl node::crypto::PKEY_PKCS8_Export(const KeyObjectData &, ByteSource *)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

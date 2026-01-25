@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE x(pgno INTEGER PRIMARY KEY, data BLOB, schema HIDDEN)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

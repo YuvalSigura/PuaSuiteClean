@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=TH-U LICENSE FOUND
+REPLACE=00
+COMMENT=AutoPatch: remove license string

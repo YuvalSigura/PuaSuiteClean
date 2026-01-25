@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=QUIC_TLS_UNEXPECTED_KEYING_MATERIAL_EXPORT_LABEL
+REPLACE=00
+COMMENT=AutoPatch: remove license string

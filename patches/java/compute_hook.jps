@@ -1,0 +1,12 @@
+﻿patch com.test.Main.compute()
+{
+    insert_before {
+        aload_0
+        invokestatic Hooks/beforeCompute
+    }
+
+    insert_after {
+        aload_0
+        invokestatic Hooks/afterCompute
+    }
+}

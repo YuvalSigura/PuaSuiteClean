@@ -1,0 +1,4 @@
+# Replace license check
+[patch]
+find: if (!licenseValid)
+replace: if (true)

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CANNOT_HAVE_BOTH_PRIVKEY_AND_METHOD
+REPLACE=00
+COMMENT=AutoPatch: remove license string

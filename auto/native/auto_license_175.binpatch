@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE aggregatable_debug_rate_limits(id INTEGER PRIMARY KEY NOT NULL,context_site TEXT NOT NULL,reporting_origin TEXT NOT NULL,reporting_site TEXT NOT NULL,time INTEGER NOT NULL,consumed_budget INTEGER NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

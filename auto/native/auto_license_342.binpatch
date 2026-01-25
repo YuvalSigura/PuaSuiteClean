@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=MISSING_KEY_SHARE
+REPLACE=00
+COMMENT=AutoPatch: remove license string

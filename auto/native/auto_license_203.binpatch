@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE bidding_and_auction_server_keys(coordinator TEXT NOT NULL,keys BLOB NOT NULL,expiration INTEGER NOT NULL,PRIMARY KEY(coordinator))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

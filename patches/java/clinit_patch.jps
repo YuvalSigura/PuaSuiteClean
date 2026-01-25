@@ -1,0 +1,6 @@
+﻿patch com.config.Settings.<clinit>()
+{
+    insert_before {
+        invokestatic Hooks/onStaticInit
+    }
+}

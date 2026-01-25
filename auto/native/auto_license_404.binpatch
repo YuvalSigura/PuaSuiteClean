@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=EVP_PKEY_CTX_set_rsa_padding failed
+REPLACE=00
+COMMENT=AutoPatch: remove license string

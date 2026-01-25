@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=E('ERR_CRYPTO_SIGN_KEY_REQUIRED', 'No key provided to sign', Error);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

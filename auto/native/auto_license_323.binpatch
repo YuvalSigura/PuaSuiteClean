@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=MULTIPLE_PRIVATE_KEYS_IN_PKCS12
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=ERR_CRYPTO_INVALID_KEYLEN
+REPLACE=00
+COMMENT=AutoPatch: remove license string

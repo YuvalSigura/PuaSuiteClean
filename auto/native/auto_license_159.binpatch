@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=Konig Electronic CMP-KEYPAD12 Numeric Keypad
+REPLACE=00
+COMMENT=AutoPatch: remove license string

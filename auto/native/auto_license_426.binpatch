@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=layout != CHANNEL_LAYOUT_STEREO_AND_KEYBOARD_MIC
+REPLACE=00
+COMMENT=AutoPatch: remove license string

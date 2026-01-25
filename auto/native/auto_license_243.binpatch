@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE blobs (row_id INTEGER PRIMARY KEY, object_type INTEGER NOT NULL, mime_type TEXT NOT NULL, size_bytes INTEGER NOT NULL, bytes BLOB, file_name BLOB, last_modified INTEGER)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=      const string = stream[KEYPRESS_DECODER].write(input);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=KEY_SIZE_TOO_SMALL
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE new_budget_mapping(id INTEGER NOT NULL PRIMARY KEY,context_site TEXT NOT NULL,time_stamp INTEGER NOT NULL,bits_debit REAL NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE new_interest_groups(expiration INTEGER NOT NULL,last_updated INTEGER NOT NULL,next_update_after INTEGER NOT NULL,owner TEXT NOT NULL,joining_origin TEXT NOT NULL,exact_join_time INTEGER NOT NULL,name TEXT NOT NULL,priority DOUBLE NOT NULL,enable_bidding_signals_prioritization INTEGER NOT NULL,priority_vector TEXT NOT NULL,priority_signals_overrides TEXT NOT NULL,execution_mode INTEGER NOT NULL,joining_url TEXT NOT NULL,bidding_url TEXT NOT NULL,bidding_wasm_helper_url TEXT NOT NULL,update_url TEXT NOT NULL,trusted_bidding_signals_url TEXT NOT NULL,trusted_bidding_signals_keys TEXT NOT NULL,user_bidding_signals TEXT,ads TEXT NOT NULL,ad_components TEXT NOT NULL,PRIMARY KEY(owner,name))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

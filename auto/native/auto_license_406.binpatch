@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=Failed to set EC_GROUP for EC_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

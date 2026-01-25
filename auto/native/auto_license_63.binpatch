@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=    throw new ERR_CRYPTO_INVALID_KEY_OBJECT_TYPE(publicKey.type,
+REPLACE=00
+COMMENT=AutoPatch: remove license string

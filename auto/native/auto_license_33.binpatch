@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=AUTOINCREMENT is only allowed on an INTEGER PRIMARY KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=E('ERR_CRYPTO_INCOMPATIBLE_KEY', 'Incompatible %s: %s', Error);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

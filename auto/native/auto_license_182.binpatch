@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE IF NOT EXISTS browsing_topics_api_hashed_to_unhashed_domain(hashed_context_domain INTEGER PRIMARY KEY,context_domain TEXT NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,5 @@
+; Auto-generated .NET Anti-License Patch
+method:*License*
+find:ldstr "PKEY_AppUserModel_ID"
+replace:ldc.i4.1
+comment:AutoPatch injected

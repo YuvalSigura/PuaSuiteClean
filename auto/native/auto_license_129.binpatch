@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=SQLITE_CHANGESET_FOREIGN_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=L2T3_KEY_SHIFT
+REPLACE=00
+COMMENT=AutoPatch: remove license string

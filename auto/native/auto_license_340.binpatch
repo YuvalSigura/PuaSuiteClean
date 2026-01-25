@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=INVALID_TICKET_KEYS_LENGTH
+REPLACE=00
+COMMENT=AutoPatch: remove license string

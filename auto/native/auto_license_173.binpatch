@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE new_rate_limits(id INTEGER PRIMARY KEY NOT NULL,scope INTEGER NOT NULL,source_id INTEGER NOT NULL,source_site TEXT NOT NULL,destination_site TEXT NOT NULL,context_origin TEXT NOT NULL,reporting_origin TEXT NOT NULL,reporting_site TEXT NOT NULL,time INTEGER NOT NULL,source_expiry_or_attribution_time INTEGER NOT NULL,report_id INTEGER NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

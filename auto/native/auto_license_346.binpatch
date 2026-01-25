@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PAKE_AND_KEY_SHARE_NOT_ALLOWED
+REPLACE=00
+COMMENT=AutoPatch: remove license string

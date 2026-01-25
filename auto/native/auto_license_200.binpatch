@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE win_history(owner TEXT NOT NULL,name TEXT NOT NULL,win_time INTEGER NOT NULL,ad TEXT NOT NULL,FOREIGN KEY(owner,name) REFERENCES interest_groups)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

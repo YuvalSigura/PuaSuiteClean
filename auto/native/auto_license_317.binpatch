@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=OPERATION_NOT_SUPPORTED_FOR_THIS_KEYTYPE
+REPLACE=00
+COMMENT=AutoPatch: remove license string

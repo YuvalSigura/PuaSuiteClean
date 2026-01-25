@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE cooldown_debugging_only_report(origin TEXT NOT NULL,starting_date INTEGER NOT NULL,duration INTEGER NOT NULL,PRIMARY KEY(origin))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

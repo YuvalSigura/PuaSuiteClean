@@ -1,0 +1,16 @@
+﻿patch com.engine.Core.run()
+{
+    insert_before {
+        aload_0
+        invokestatic Debug/startRun
+    }
+
+    replace {
+        invokestatic Engine/doRun
+        return
+    }
+
+    insert_after {
+        invokestatic Debug/endRun
+    }
+}

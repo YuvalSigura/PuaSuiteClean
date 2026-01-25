@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=MANAGE YOUR LICENSES
+REPLACE=00
+COMMENT=AutoPatch: remove license string

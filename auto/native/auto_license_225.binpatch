@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE joined_k_anon(hashed_key BLOB NOT NULL,last_reported_to_anon_server_time INTEGER NOT NULL,PRIMARY KEY(hashed_key))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

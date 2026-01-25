@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE object_stores (id INTEGER PRIMARY KEY, name BLOB NOT NULL, key_path BLOB, auto_increment INTEGER NOT NULL, key_generator_current_number INTEGER NOT NULL)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

@@ -1,0 +1,7 @@
+﻿patch com.test.Main.compute()
+{
+    insert_before {
+        aload_0
+        invokestatic Helper/before
+    }
+}

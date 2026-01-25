@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE banks(bankid INTEGER PRIMARY KEY,bankindex INTEGER NOT NULL,name VARCHAR(255) NOT NULL,created_with_version_code INTEGER NOT NULL,allow_condition TEXT NOT NULL DEFAULT '')
+REPLACE=00
+COMMENT=AutoPatch: remove license string

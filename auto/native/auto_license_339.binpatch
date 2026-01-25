@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=ECH_SERVER_CONFIG_AND_PRIVATE_KEY_MISMATCH
+REPLACE=00
+COMMENT=AutoPatch: remove license string

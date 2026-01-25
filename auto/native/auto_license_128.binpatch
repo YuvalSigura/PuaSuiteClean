@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=(i2d_RSA_PUBKEY(rsa, &serialized)) >= (0)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

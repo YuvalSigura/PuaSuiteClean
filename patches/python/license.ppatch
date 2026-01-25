@@ -1,0 +1,4 @@
+# Python patch – force license
+[patch]
+find: if not validate_license():
+replace: if True:

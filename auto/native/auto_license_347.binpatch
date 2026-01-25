@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=PRE_SHARED_KEY_MUST_BE_LAST
+REPLACE=00
+COMMENT=AutoPatch: remove license string

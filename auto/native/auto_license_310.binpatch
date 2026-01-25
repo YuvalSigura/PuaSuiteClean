@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=EXPECTING_A_DH_KEY
+REPLACE=00
+COMMENT=AutoPatch: remove license string

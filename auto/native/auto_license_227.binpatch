@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE new_lockout_debugging_only_report(id INTEGER NOT NULL,starting_time INTEGER NOT NULL,duration INTEGER NOT NULL,PRIMARY KEY(id))
+REPLACE=00
+COMMENT=AutoPatch: remove license string

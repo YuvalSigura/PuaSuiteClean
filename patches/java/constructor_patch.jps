@@ -1,0 +1,7 @@
+﻿patch com.network.Client.<init>()
+{
+    insert_after {
+        aload_0
+        invokestatic Hooks/clientConstructed
+    }
+}

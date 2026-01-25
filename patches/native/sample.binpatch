@@ -1,0 +1,4 @@
+# Search patch with wildcards
+[patch]
+search: 55 8B EC 83 EC ?? 89 45 ??
+replace: 90 90 90 90 90 90 90 90 90

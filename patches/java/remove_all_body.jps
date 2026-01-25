@@ -1,0 +1,4 @@
+﻿patch com.app.security.Validator.check()
+{
+    remove_all
+}

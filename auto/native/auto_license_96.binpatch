@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=const KEYPRESS_DECODER = Symbol('keypress-decoder');
+REPLACE=00
+COMMENT=AutoPatch: remove license string

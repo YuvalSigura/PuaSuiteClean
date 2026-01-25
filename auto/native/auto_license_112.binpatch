@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=eJVni+49Vv4M0GkPGw/zJSZrM233bkf6c0Plfg6lZrEpfDKEY1WJxA3Bk1QwGROs0303p+td
+REPLACE=00
+COMMENT=AutoPatch: remove license string

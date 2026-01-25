@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=      --annotation=KEY=VALUE  set a process annotation in each crash report
+REPLACE=00
+COMMENT=AutoPatch: remove license string

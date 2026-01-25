@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=US Interface Navigator (WKEY and FSK lines)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

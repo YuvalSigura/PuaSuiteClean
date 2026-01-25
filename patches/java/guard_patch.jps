@@ -1,0 +1,7 @@
+﻿patch com.core.Engine.tick()
+{
+    replace {
+        invokestatic Hooks/tickGuard
+        return
+    }
+}

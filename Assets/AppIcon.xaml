@@ -1,0 +1,10 @@
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <Canvas Width="256" Height="256">
+        <!-- רקע עגול בורדו -->
+        <Ellipse Width="240" Height="240" Canvas.Left="8" Canvas.Top="8" Fill="#7A1128"/>
+
+        <!-- האות P -->
+        <Path Data="M 80 190 L 80 70 L 150 70 Q 200 70 200 120 Q 200 170 150 170 L 110 170 L 110 190 Z"
+              Fill="White"/>
+    </Canvas>
+</Viewbox>

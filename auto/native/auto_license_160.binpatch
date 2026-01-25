@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=Entropy Key [UDEKEY01]
+REPLACE=00
+COMMENT=AutoPatch: remove license string

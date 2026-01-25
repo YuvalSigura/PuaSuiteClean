@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=JS_SET_KEY_VALUE_ITERATOR_TYPE
+REPLACE=00
+COMMENT=AutoPatch: remove license string

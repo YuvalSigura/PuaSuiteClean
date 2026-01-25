@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=EVP_PKEY_X25519
+REPLACE=00
+COMMENT=AutoPatch: remove license string

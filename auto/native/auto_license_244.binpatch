@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=CREATE TABLE blob_references (row_id INTEGER PRIMARY KEY, blob_row_id INTEGER NOT NULL, record_row_id INTEGER)
+REPLACE=00
+COMMENT=AutoPatch: remove license string

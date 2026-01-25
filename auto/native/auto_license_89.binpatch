@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=// E('EXAMPLE_KEY2', (a, b) => return `${a} ${b}`, RangeError);
+REPLACE=00
+COMMENT=AutoPatch: remove license string

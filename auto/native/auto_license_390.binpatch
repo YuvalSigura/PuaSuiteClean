@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=QUIC_KEY_UPDATE_ERROR
+REPLACE=00
+COMMENT=AutoPatch: remove license string

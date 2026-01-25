@@ -1,0 +1,4 @@
+; Auto-generated License Patch
+PATTERN=HKEY_CURRENT_USER\
+REPLACE=00
+COMMENT=AutoPatch: remove license string
