@@ -13,6 +13,9 @@
   <img src="https://img.shields.io/badge/Use-Research%20Only-red?style=for-the-badge" />
 </p>
 
+
+<img width="1079" height="737" alt="image" src="https://github.com/user-attachments/assets/ec770b55-7d2e-48c1-b42c-5f5d3331235c" />
+
 ---
 
 ## 📌 Overview
@@ -185,7 +188,6 @@ Safety > speed
 Clean tools beat clever hacks.
 
 ---
-<img width="1079" height="737" alt="image" src="https://github.com/user-attachments/assets/ec770b55-7d2e-48c1-b42c-5f5d3331235c" />
 
 <p align="center">
   🛠️ <b>Research responsibly.</b>
